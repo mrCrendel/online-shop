@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'akoikelov.djazz',
     # me apps
     'shop.apps.ShopConfig',
-    'cart.CartConfig',
+    'cart.apps.CartConfig',
+    'orders.apps.OrdersConfig',
 ]
 
 MIDDLEWARE = [
