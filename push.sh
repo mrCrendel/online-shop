@@ -2,4 +2,6 @@
 
 git add .
 git commit -m "$1"
-git push remote master origin git+ssh://git@github.com/mrCrendel/online-shop.git
+git push origin master https://github.com/mrCrendel/online-shop.git
+Username for 'https://github.com': <mrCrendel>
+Password for 'https://USERNAME@github.com': <t3erob1nbd_t>
