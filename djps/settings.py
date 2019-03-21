@@ -149,6 +149,9 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+# cart
+CART_SESSION_ID = 'cart'
+
 # gmail
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
